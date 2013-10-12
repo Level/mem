@@ -5,6 +5,8 @@ level-mem
 
 [![NPM](https://nodei.co/npm/level-mem.png)](https://nodei.co/npm/level-mem/)
 
+[![Build Status](https://secure.travis-ci.org/Level/level-mem.png)](http://travis-ci.org/Level/level-mem)
+
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[MemDOWN](https://github.com/rvagg/node-memdown)** and exposes LevelUP on its export.
 
 Use this package to avoid having to explicitly install MemDOWN when you want to use MemDOWN with LevelUP for non-persistent LevelUP data storage.
