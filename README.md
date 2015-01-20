@@ -1,6 +1,8 @@
 level-mem
 =========
 
+<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+
 **A convenience package bundling LevelUP & MemDOWN**
 
 [![NPM](https://nodei.co/npm/level-mem.png)](https://nodei.co/npm/level-mem/)
@@ -48,6 +50,6 @@ See the [CONTRIBUTING.md](https://github.com/Level/level/blob/master/CONTRIBUTIN
 Licence &amp; copyright
 -------------------
 
-Copyright (c) 2012-2013 Rod Vagg contributors (listed above).
+Copyright (c) 2012-2015 Rod Vagg contributors (listed above).
 
 **level-mem** is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
