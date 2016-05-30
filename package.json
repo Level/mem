@@ -21,7 +21,7 @@
   ],
   "main": "level-mem.js",
   "dependencies": {
-    "memdown": "~0.6.0",
+    "memdown": "~1.2.0",
     "level-packager": "~0.18.0"
   },
   "devDependencies": {
