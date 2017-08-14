@@ -7,7 +7,7 @@ level-mem
 
 [![NPM](https://nodei.co/npm/level-mem.png)](https://nodei.co/npm/level-mem/)
 
-[![Build Status](https://secure.travis-ci.org/Level/level-mem.png)](http://travis-ci.org/Level/level-mem)
+[![Build Status](https://secure.travis-ci.org/Level/level-mem.png)](http://travis-ci.org/Level/level-mem) [![Greenkeeper badge](https://badges.greenkeeper.io/Level/level-mem.svg)](https://greenkeeper.io/)
 
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[MemDOWN](https://github.com/rvagg/node-memdown)** and exposes LevelUP on its export.
 
