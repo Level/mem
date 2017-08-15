@@ -50,6 +50,6 @@ See the [CONTRIBUTING.md](https://github.com/Level/level/blob/master/CONTRIBUTIN
 Licence &amp; copyright
 -------------------
 
-Copyright (c) 2012-2015 Rod Vagg contributors (listed above).
+Copyright (c) 2012-2017 Rod Vagg contributors (listed above).
 
 **level-mem** is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
