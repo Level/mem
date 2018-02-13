@@ -1,6 +1,6 @@
 # level-mem
 
-> A convenience package bundling `levelup` and `memdown`
+> A convenience package bundling [`levelup`](https://github.com/level/levelup) and [`memdown`](https://github.com/level/memdown) and exposes `levelup` on its export.
 
 [![level badge][level-badge]](https://github.com/level/awesome)
 [![npm](https://img.shields.io/npm/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
@@ -8,8 +8,6 @@
 [![david](https://david-dm.org/Level/mem.svg)](https://david-dm.org/level/mem)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/dm/level-mem.svg)](https://www.npmjs.com/package/level-mem)
-
-This is a convenience package that bundles the current release of [`levelup`](https://github.com/level/levelup) and [`memdown`](https://github.com/level/memdown) and exposes `levelup` on its export.
 
 Use this package to avoid having to explicitly install `memdown` when you want to use `memdown` with `levelup` for non-persistent `levelup` data storage.
 
