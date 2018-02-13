@@ -16,7 +16,7 @@ Use this package to avoid having to explicitly install `memdown` when you want t
 ```js
 const level = require('level-mem')
 
-// 1) Create our database, supply location and options.
+// 1) Create our database, with optional options.
 //    This will create or open the underlying LevelDB store.
 const db = level()
 
