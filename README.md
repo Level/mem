@@ -1,55 +1,51 @@
-level-mem
-=========
+# level-mem
 
-<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+> A convenience package that bundles [`levelup`](https://github.com/level/levelup) and [`memdown`](https://github.com/level/memdown) and exposes `levelup` on its export.
 
-**A convenience package bundling LevelUP & MemDOWN**
+[![level badge][level-badge]](https://github.com/level/awesome)
+[![npm](https://img.shields.io/npm/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
+[![Build Status](https://secure.travis-ci.org/Level/mem.png)](http://travis-ci.org/Level/mem)
+[![david](https://david-dm.org/Level/mem.svg)](https://david-dm.org/level/mem)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm](https://img.shields.io/npm/dm/level-mem.svg)](https://www.npmjs.com/package/level-mem)
 
-[![NPM](https://nodei.co/npm/level-mem.png)](https://nodei.co/npm/level-mem/)
-
-[![Build Status](https://secure.travis-ci.org/Level/level-mem.png)](http://travis-ci.org/Level/level-mem) [![Greenkeeper badge](https://badges.greenkeeper.io/Level/level-mem.svg)](https://greenkeeper.io/)
-
-This is a convenience package that bundles the current release of **[LevelUP](https://github.com/rvagg/node-levelup)** and **[MemDOWN](https://github.com/rvagg/node-memdown)** and exposes LevelUP on its export.
-
-Use this package to avoid having to explicitly install MemDOWN when you want to use MemDOWN with LevelUP for non-persistent LevelUP data storage.
+Use this package to avoid having to explicitly install `memdown` when you want to use `memdown` with `levelup` for non-persistent `levelup` data storage.
 
 ```js
-var level = require('level-mem')
+const level = require('level-mem')
 
-// 1) Create our database, supply location and options.
+// 1) Create our database, with optional options.
 //    This will create or open the underlying LevelDB store.
-var db = level('w00t')
+const db = level()
 
-// 2) put a key & value
+// 2) Put a key & value
 db.put('name', 'Level', function (err) {
   if (err) return console.log('Ooops!', err) // some kind of I/O error
 
-  // 3) fetch by key
+  // 3) Fetch by key
   db.get('name', function (err, value) {
     if (err) return console.log('Ooops!', err) // likely the key was not found
 
-    // ta da!
+    // Ta da!
     console.log('name=' + value)
   })
 })
 ```
 
-See **[LevelUP](https://github.com/rvagg/node-levelup)** and **[MemDOWN](https://github.com/rvagg/node-memdown)** for more details.
+See [`levelup`](https://github.com/level/levelup) and [`memdown`](https://github.com/level/memdown) for more details.
 
-<a name="contributing"></a>
-Contributing
-------------
+## Contributing
 
-**level-mem** is an **OPEN Open Source Project**. This means that:
+`level-mem` is an **OPEN Open Source Project**. This means that:
 
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
 See the [CONTRIBUTING.md](https://github.com/Level/level/blob/master/CONTRIBUTING.md) file for more details.
 
-<a name="licence"></a>
-Licence &amp; copyright
--------------------
+## License
 
-Copyright (c) 2012-2017 Rod Vagg contributors (listed above).
+Copyright (c) 2012-2018 `level-mem` [contributors](https://github.com/level/community#contributors).
 
-**level-mem** is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
+`level-mem` is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
+
+[level-badge]: http://leveldb.org/img/badge.svg
