@@ -4,6 +4,7 @@
 
 [![level badge][level-badge]](https://github.com/level/awesome)
 [![npm](https://img.shields.io/npm/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
+![Node version](https://img.shields.io/node/v/level-mem.svg)
 [![Build Status](https://secure.travis-ci.org/Level/mem.png)](http://travis-ci.org/Level/mem)
 [![david](https://david-dm.org/Level/mem.svg)](https://david-dm.org/level/mem)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
