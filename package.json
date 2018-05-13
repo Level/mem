@@ -31,7 +31,7 @@
     "test": "node ./test.js"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6"
   },
   "license": "MIT"
 }
