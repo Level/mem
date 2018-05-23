@@ -2,6 +2,19 @@
 
 ## [Unreleased]
 
+## [3.0.0] - 2018-05-23
+
+### Added
+* Add node 10 to Travis (@ralphtheninja)
+* Add `UPGRADING.md` (@ralphtheninja)
+
+### Changed
+* Update `memdown` to `~3.0.0` (@ralphtheninja)
+* Update `level-packager` to `~3.0.0` (@ralphtheninja)
+
+### Removed
+* Remove node 4 from Travis (@ralphtheninja)
+
 ## [2.0.0] - 2018-02-14
 
 ### Added
@@ -55,7 +68,8 @@
 
 :seedling: Initial release.
 
-[Unreleased]: https://github.com/level/mem/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/level/mem/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/level/mem/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/level/mem/compare/v1.0.2...v2.0.0
 [1.0.2]: https://github.com/level/mem/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/level/mem/compare/v1.0.0...v1.0.1
