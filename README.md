@@ -35,6 +35,8 @@ db.put('name', 'Level', function (err) {
 
 See [`levelup`](https://github.com/level/levelup) and [`memdown`](https://github.com/level/memdown) for more details.
 
+**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md).
+
 ## Contributing
 
 `level-mem` is an **OPEN Open Source Project**. This means that:
