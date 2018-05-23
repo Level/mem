@@ -25,7 +25,7 @@
     "level-packager": "~3.0.0"
   },
   "devDependencies": {
-    "tape": "*"
+    "tape": "^4.9.0"
   },
   "scripts": {
     "test": "node ./test.js"
