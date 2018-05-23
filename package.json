@@ -22,7 +22,7 @@
   "main": "level-mem.js",
   "dependencies": {
     "memdown": "~3.0.0",
-    "level-packager": "~2.1.1"
+    "level-packager": "~3.0.0"
   },
   "devDependencies": {
     "tape": "*"
