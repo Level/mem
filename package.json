@@ -25,10 +25,11 @@
     "level-packager": "~3.0.0"
   },
   "devDependencies": {
+    "standard": "^11.0.1",
     "tape": "^4.9.0"
   },
   "scripts": {
-    "test": "node ./test.js"
+    "test": "standard && node test.js"
   },
   "engines": {
     "node": ">=6"
