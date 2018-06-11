@@ -47,7 +47,7 @@ See the [CONTRIBUTING.md](https://github.com/Level/level/blob/master/CONTRIBUTIN
 
 ## License
 
-Copyright (c) 2012-2018 `level-mem` [contributors](https://github.com/level/community#contributors).
+Copyright (c) 2012-present `level-mem` [contributors](https://github.com/level/community#contributors).
 
 `level-mem` is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included [`LICENSE.md`](LICENSE.md) file for more details.
 
