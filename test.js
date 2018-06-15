@@ -1,6 +1,5 @@
-require('level-packager/test')(require('tape'), require('./'), {
-  skipErrorIfExistsTest: true,
-  skipRepairTest: true,
-  skipDestroyTest: true,
-  nonPersistent: true
-})
+var test = require('tape')
+var level = require('.')
+
+require('level-packager/abstract/base-test')(test, level)
+require('level-packager/abstract/db-values-test')(test, level, true)
