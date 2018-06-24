@@ -1,7 +1,7 @@
 {
   "name": "level-mem",
   "description": "A convenience package bundling LevelUP & MemDOWN",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)"
   ],
