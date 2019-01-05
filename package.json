@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/Level/mem",
   "keywords": [
+    "level",
     "leveldb",
     "stream",
     "database",
