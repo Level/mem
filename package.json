@@ -1,16 +1,39 @@
 {
   "name": "level-mem",
-  "description": "A convenience package bundling LevelUP & MemDOWN",
   "version": "3.0.1",
+  "description": "A convenience package bundling LevelUP & MemDOWN",
+  "license": "MIT",
+  "main": "level-mem.js",
+  "scripts": {
+    "test": "standard && hallmark && nyc node test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "hallmark": "hallmark --fix"
+  },
+  "dependencies": {
+    "level-packager": "~4.0.0",
+    "memdown": "~3.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "hallmark": "^0.1.0",
+    "level-community": "^3.0.0",
+    "nyc": "^12.0.2",
+    "standard": "^12.0.0",
+    "tape": "^4.9.0"
+  },
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)"
   ],
+  "hallmark": {
+    "community": "level-community"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Level/mem.git"
   },
   "homepage": "https://github.com/Level/mem",
   "keywords": [
+    "level",
     "leveldb",
     "stream",
     "database",
@@ -19,23 +42,7 @@
     "storage",
     "json"
   ],
-  "main": "level-mem.js",
-  "dependencies": {
-    "memdown": "~3.0.0",
-    "level-packager": "~4.0.0"
-  },
-  "devDependencies": {
-    "coveralls": "^3.0.2",
-    "nyc": "^12.0.2",
-    "standard": "^12.0.0",
-    "tape": "^4.9.0"
-  },
-  "scripts": {
-    "test": "standard && nyc node test.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
-  },
   "engines": {
     "node": ">=6"
-  },
-  "license": "MIT"
+  }
 }
