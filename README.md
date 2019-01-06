@@ -1,12 +1,11 @@
 # level-mem
 
-> A convenience package that bundles [`levelup`](https://github.com/level/levelup) and [`memdown`](https://github.com/level/memdown) and exposes `levelup` on its export.
+> A convenience package that bundles [`levelup`](https://github.com/Level/levelup) and [`memdown`](https://github.com/Level/memdown) and exposes `levelup` on its export.
 
-[![level badge][level-badge]](https://github.com/level/awesome)
+[![level badge][level-badge]](https://github.com/Level/awesome)
 [![npm](https://img.shields.io/npm/v/level-mem.svg?label=&logo=npm)](https://www.npmjs.com/package/level-mem)
 [![Node version](https://img.shields.io/node/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
-[![Build Status](https://secure.travis-ci.org/Level/mem.png)](http://travis-ci.org/Level/mem)
-[![david](https://david-dm.org/Level/mem.svg)](https://david-dm.org/level/mem)
+[![Travis](https://img.shields.io/travis/Level/mem.svg?logo=travis&label=)](https://travis-ci.org/Level/mem)
 [![Coverage Status](https://coveralls.io/repos/github/Level/mem/badge.svg)](https://coveralls.io/github/Level/mem)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/dm/level-mem.svg?label=dl)](https://www.npmjs.com/package/level-mem)
@@ -36,7 +35,7 @@ db.put('name', 'Level', function (err) {
 })
 ```
 
-See [`levelup`](https://github.com/level/levelup) and [`memdown`](https://github.com/level/memdown) for more details.
+See [`levelup`](https://github.com/Level/levelup) and [`memdown`](https://github.com/Level/memdown) for more details.
 
 **If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md).
 
