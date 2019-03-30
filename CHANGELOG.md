@@ -1,6 +1,26 @@
 # Changelog
 
+_**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
+
 ## [Unreleased][unreleased]
+
+## [4.0.0] - 2019-03-30
+
+### Changed
+
+- Upgrade `memdown` from `~3.0.0` to `^4.0.0` ([`35ccf15`](https://github.com/Level/mem/commit/35ccf15)) ([**@vweevers**](https://github.com/vweevers))
+- Upgrade `level-packager` from `~4.0.0` to `^5.0.0` ([`3f3298e`](https://github.com/Level/mem/commit/3f3298e)) ([**@vweevers**](https://github.com/vweevers))
+- Upgrade `standard` devDependency from `^11.0.1` to `^12.0.0` ([#45](https://github.com/Level/mem/issues/45)) ([**@ralphtheninja**](https://github.com/ralphtheninja))
+- Apply common project tweaks ([#47](https://github.com/Level/mem/issues/47), [#48](https://github.com/Level/mem/issues/48)) ([**@vweevers**](https://github.com/vweevers))
+
+### Added
+
+- Add `nyc` and `coveralls` ([#44](https://github.com/Level/mem/issues/44), [#49](https://github.com/Level/mem/issues/49)) ([**@ralphtheninja**](https://github.com/ralphtheninja), [**@vweevers**](https://github.com/vweevers))
+
+### Removed
+
+- Remove node 9 ([`f139c37`](https://github.com/Level/mem/commit/f139c37)) ([**@ralphtheninja**](https://github.com/ralphtheninja))
+- Remove `contributors` from `package.json` ([`f09b950`](https://github.com/Level/mem/commit/f09b950)) ([**@vweevers**](https://github.com/vweevers))
 
 ## [3.0.1] - 2018-06-24
 
@@ -98,7 +118,9 @@
 
 :seedling: Initial release.
 
-[unreleased]: https://github.com/level/mem/compare/v3.0.1...HEAD
+[unreleased]: https://github.com/level/mem/compare/v4.0.0...HEAD
+
+[4.0.0]: https://github.com/level/mem/compare/v3.0.1...v4.0.0
 
 [3.0.1]: https://github.com/level/mem/compare/v3.0.0...v3.0.1
 
