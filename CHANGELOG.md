@@ -2,8 +2,6 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
-## [Unreleased][unreleased]
-
 ## [4.0.0] - 2019-03-30
 
 ### Changed
@@ -118,20 +116,18 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 :seedling: Initial release.
 
-[unreleased]: https://github.com/level/mem/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/Level/mem/compare/v3.0.1...v4.0.0
 
-[4.0.0]: https://github.com/level/mem/compare/v3.0.1...v4.0.0
+[3.0.1]: https://github.com/Level/mem/compare/v3.0.0...v3.0.1
 
-[3.0.1]: https://github.com/level/mem/compare/v3.0.0...v3.0.1
+[3.0.0]: https://github.com/Level/mem/compare/v2.0.0...v3.0.0
 
-[3.0.0]: https://github.com/level/mem/compare/v2.0.0...v3.0.0
+[2.0.0]: https://github.com/Level/mem/compare/v1.0.2...v2.0.0
 
-[2.0.0]: https://github.com/level/mem/compare/v1.0.2...v2.0.0
+[1.0.2]: https://github.com/Level/mem/compare/v1.0.1...v1.0.2
 
-[1.0.2]: https://github.com/level/mem/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/Level/mem/compare/v1.0.0...v1.0.1
 
-[1.0.1]: https://github.com/level/mem/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/Level/mem/compare/v0.18.0...v1.0.0
 
-[1.0.0]: https://github.com/level/mem/compare/v0.18.0...v1.0.0
-
-[0.18.0]: https://github.com/level/mem/compare/0.17.0...v0.18.0
+[0.18.0]: https://github.com/Level/mem/compare/0.17.0...v0.18.0
