@@ -2,8 +2,6 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
-## [Unreleased][unreleased]
-
 ## [4.0.0] - 2019-03-30
 
 ### Changed
@@ -117,8 +115,6 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 ## 0.17.0 - 2013-10-12
 
 :seedling: Initial release.
-
-[unreleased]: https://github.com/level/mem/compare/v4.0.0...HEAD
 
 [4.0.0]: https://github.com/level/mem/compare/v3.0.1...v4.0.0
 
