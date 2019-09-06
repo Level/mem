@@ -2,6 +2,15 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
+## [5.0.0] - 2019-09-06
+
+### Changed
+
+- **Breaking:** Upgrade `memdown` from `^4.0.0` to `^5.0.0` ([#56](https://github.com/Level/mem/issues/56)) ([**@vweevers**](https://github.com/vweevers))
+- Upgrade `hallmark` devDependency from `^0.1.0` to `^2.0.0` ([#54](https://github.com/Level/mem/issues/54), [#58](https://github.com/Level/mem/issues/58)) ([**@vweevers**](https://github.com/vweevers))
+- Upgrade `standard` devDependency from `^12.0.0` to `^14.0.0` ([#53](https://github.com/Level/mem/issues/53), [#57](https://github.com/Level/mem/issues/57)) ([**@vweevers**](https://github.com/vweevers))
+- Upgrade `nyc` devDependency from `^13.2.0` to `^14.0.0` ([#52](https://github.com/Level/mem/issues/52)) ([**@vweevers**](https://github.com/vweevers))
+
 ## [4.0.0] - 2019-03-30
 
 ### Changed
@@ -115,6 +124,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 ## 0.17.0 - 2013-10-12
 
 :seedling: Initial release.
+
+[5.0.0]: https://github.com/Level/mem/compare/v4.0.0...v5.0.0
 
 [4.0.0]: https://github.com/Level/mem/compare/v3.0.1...v4.0.0
 
