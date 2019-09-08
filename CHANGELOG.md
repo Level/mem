@@ -2,6 +2,12 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
+## [5.0.1] - 2019-09-08
+
+### Fixed
+
+- Bump `level-packager` to prevent dedupe (for [Level/community#79](https://github.com/Level/community/issues/79)) ([`baec173`](https://github.com/Level/mem/commit/baec173)) ([**@vweevers**](https://github.com/vweevers))
+
 ## [5.0.0] - 2019-09-06
 
 ### Changed
@@ -124,6 +130,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 ## 0.17.0 - 2013-10-12
 
 :seedling: Initial release.
+
+[5.0.1]: https://github.com/Level/mem/compare/v5.0.0...v5.0.1
 
 [5.0.0]: https://github.com/Level/mem/compare/v4.0.0...v5.0.0
 
