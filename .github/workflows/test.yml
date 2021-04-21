@@ -1,4 +1,3 @@
-
 name: Test
 on: push
 jobs:
@@ -17,14 +16,11 @@ jobs:
           node-version: ${{ matrix.node }}
       - name: Install
         run: npm install
-
       - name: Test
         run: npm run test
-
       - name: Coverage
         run: npm run coverage
-
       - name: Codecov
-        uses: codecov/codecov-action@v1          
+        uses: codecov/codecov-action@v1
         with:
-          file: coverage/lcov.info        
+          file: coverage/lcov.info
