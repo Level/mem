@@ -12,7 +12,7 @@
     "prepublishOnly": "npm run dependency-check"
   },
   "dependencies": {
-    "level-packager": "^5.0.3",
+    "level-packager": "^6.0.0",
     "memdown": "^5.0.0"
   },
   "devDependencies": {
