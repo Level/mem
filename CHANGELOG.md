@@ -1,5 +1,17 @@
 # Changelog
 
+## [6.0.0] - 2021-10-01
+
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
+
+### Changed
+
+- **Breaking:** bump `level-packager` and `memdown` ([`d1fbde2`](https://github.com/Level/mem/commit/d1fbde2)) (Vincent Weevers)
+
+### Removed
+
+- **Breaking:** drop Node.js 6 and 8 ([`3cb1a32`](https://github.com/Level/mem/commit/3cb1a32)) (Vincent Weevers).
+
 ## [5.0.1] - 2019-09-08
 
 ### Fixed
@@ -131,9 +143,11 @@ _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 
 - Add Travis ([**@rvagg**](https://github.com/rvagg))
 
-## 0.17.0 - 2013-10-12
+## [0.17.0] - 2013-10-12
 
 :seedling: Initial release.
+
+[6.0.0]: https://github.com/Level/mem/releases/tag/v6.0.0
 
 [5.0.1]: https://github.com/Level/mem/releases/tag/v5.0.1
 
@@ -154,3 +168,5 @@ _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 [1.0.0]: https://github.com/Level/mem/releases/tag/v1.0.0
 
 [0.18.0]: https://github.com/Level/mem/releases/tag/v0.18.0
+
+[0.17.0]: https://github.com/Level/mem/releases/tag/0.17.0
