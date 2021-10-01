@@ -11,6 +11,11 @@
     "dependency-check": "dependency-check . test.js",
     "prepublishOnly": "npm run dependency-check"
   },
+  "files": [
+    "level-mem.js",
+    "CHANGELOG.md",
+    "UPGRADING.md"
+  ],
   "dependencies": {
     "level-packager": "^6.0.0",
     "memdown": "^6.1.0"
@@ -18,13 +23,9 @@
   "devDependencies": {
     "dependency-check": "^3.3.0",
     "hallmark": "^3.1.0",
-    "level-community": "^3.0.0",
     "nyc": "^15.1.0",
     "standard": "^16.0.3",
     "tape": "^5.0.1"
-  },
-  "hallmark": {
-    "community": "level-community"
   },
   "repository": {
     "type": "git",

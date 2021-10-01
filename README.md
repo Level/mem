@@ -1,43 +1,37 @@
 # level-mem
 
-> A convenience package that bundles [`levelup`](https://github.com/Level/levelup) and [`memdown`](https://github.com/Level/memdown) and exposes `levelup` on its export.
+> A convenience package that bundles [`levelup`](https://github.com/Level/levelup), [`encoding-down`](https://github.com/Level/encoding-down) and [`memdown`](https://github.com/Level/memdown) and exposes `levelup` on its export.
 
 [![level badge][level-badge]](https://github.com/Level/awesome)
-[![npm](https://img.shields.io/npm/v/level-mem.svg?label=&logo=npm)](https://www.npmjs.com/package/level-mem)
+[![npm](https://img.shields.io/npm/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
 [![Node version](https://img.shields.io/node/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
-[![Test](https://github.com/Level/mem/actions/workflows/test.yml/badge.svg)](https://github.com/Level/mem/actions/workflows/test.yml)
-[![Coverage Status](https://codecov.io/gh/Level/mem/branch/master/graph/badge.svg)](https://codecov.io/gh/Level/mem)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![npm](https://img.shields.io/npm/dm/level-mem.svg?label=dl)](https://www.npmjs.com/package/level-mem)
-[![Backers on Open Collective](https://opencollective.com/level/backers/badge.svg?color=orange)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/level/sponsors/badge.svg?color=orange)](#sponsors)
+[![Test](https://img.shields.io/github/workflow/status/Level/mem/Test?label=test)](https://github.com/Level/mem/actions/workflows/test.yml)
+[![Coverage](https://img.shields.io/codecov/c/github/Level/mem?label=&logo=codecov&logoColor=fff)](https://codecov.io/gh/Level/mem)
+[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
+[![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
+[![Donate](https://img.shields.io/badge/donate-orange?logo=open-collective&logoColor=fff)](https://opencollective.com/level)
+
+## Usage
 
 Use this package to avoid having to explicitly install `memdown` when you want to use `memdown` with `levelup` for non-persistent `levelup` data storage.
 
 ```js
 const level = require('level-mem')
 
-// 1) Create our database, with optional options.
-//    This will create or open the underlying LevelDB store.
+// Create our in-memory database
 const db = level()
 
-// 2) Put a key & value
-db.put('name', 'Level', function (err) {
-  if (err) return console.log('Ooops!', err) // some kind of I/O error
+// Put a key & value
+await db.put('name', 'Level')
 
-  // 3) Fetch by key
-  db.get('name', function (err, value) {
-    if (err) return console.log('Ooops!', err) // likely the key was not found
-
-    // Ta da!
-    console.log('name=' + value)
-  })
-})
+// Get value by key
+const value = await db.get('name')
+console.log(value)
 ```
 
 See [`levelup`](https://github.com/Level/levelup) and [`memdown`](https://github.com/Level/memdown) for more details.
 
-**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md).
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 
 ## Contributing
 
@@ -49,18 +43,10 @@ See the [Contribution Guide](https://github.com/Level/community/blob/master/CONT
 
 ## Donate
 
-To sustain [`Level`](https://github.com/Level) and its activities, become a backer or sponsor on [Open Collective](https://opencollective.com/level). Your logo or avatar will be displayed on our 28+ [GitHub repositories](https://github.com/Level) and [npm](https://www.npmjs.com/) packages. 💖
-
-### Backers
-
-[![Open Collective backers](https://opencollective.com/level/backers.svg?width=890)](https://opencollective.com/level)
-
-### Sponsors
-
-[![Open Collective sponsors](https://opencollective.com/level/sponsors.svg?width=890)](https://opencollective.com/level)
+Support us with a monthly donation on [Open Collective](https://opencollective.com/level) and help us continue our work.
 
 ## License
 
-[MIT](LICENSE.md) © 2012-present [Contributors](CONTRIBUTORS.md).
+[MIT](LICENSE)
 
 [level-badge]: https://leveljs.org/img/badge.svg

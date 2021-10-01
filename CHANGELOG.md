@@ -1,7 +1,5 @@
 # Changelog
 
-_**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
-
 ## [5.0.1] - 2019-09-08
 
 ### Fixed
@@ -9,6 +7,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 - Bump `level-packager` to prevent dedupe (for [Level/community#79](https://github.com/Level/community/issues/79)) ([`baec173`](https://github.com/Level/mem/commit/baec173)) ([**@vweevers**](https://github.com/vweevers))
 
 ## [5.0.0] - 2019-09-06
+
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 
 ### Changed
 
@@ -18,6 +18,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 - Upgrade `nyc` devDependency from `^13.2.0` to `^14.0.0` ([#52](https://github.com/Level/mem/issues/52)) ([**@vweevers**](https://github.com/vweevers))
 
 ## [4.0.0] - 2019-03-30
+
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 
 ### Changed
 
@@ -53,6 +55,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 - Remove `.jshintrc` ([**@ralphtheninja**](https://github.com/ralphtheninja))
 
 ## [3.0.0] - 2018-05-23
+
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 
 ### Changed
 
@@ -131,22 +135,22 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 :seedling: Initial release.
 
-[5.0.1]: https://github.com/Level/mem/compare/v5.0.0...v5.0.1
+[5.0.1]: https://github.com/Level/mem/releases/tag/v5.0.1
 
-[5.0.0]: https://github.com/Level/mem/compare/v4.0.0...v5.0.0
+[5.0.0]: https://github.com/Level/mem/releases/tag/v5.0.0
 
-[4.0.0]: https://github.com/Level/mem/compare/v3.0.1...v4.0.0
+[4.0.0]: https://github.com/Level/mem/releases/tag/v4.0.0
 
-[3.0.1]: https://github.com/Level/mem/compare/v3.0.0...v3.0.1
+[3.0.1]: https://github.com/Level/mem/releases/tag/v3.0.1
 
-[3.0.0]: https://github.com/Level/mem/compare/v2.0.0...v3.0.0
+[3.0.0]: https://github.com/Level/mem/releases/tag/v3.0.0
 
-[2.0.0]: https://github.com/Level/mem/compare/v1.0.2...v2.0.0
+[2.0.0]: https://github.com/Level/mem/releases/tag/v2.0.0
 
-[1.0.2]: https://github.com/Level/mem/compare/v1.0.1...v1.0.2
+[1.0.2]: https://github.com/Level/mem/releases/tag/v1.0.2
 
-[1.0.1]: https://github.com/Level/mem/compare/v1.0.0...v1.0.1
+[1.0.1]: https://github.com/Level/mem/releases/tag/v1.0.1
 
-[1.0.0]: https://github.com/Level/mem/compare/v0.18.0...v1.0.0
+[1.0.0]: https://github.com/Level/mem/releases/tag/v1.0.0
 
-[0.18.0]: https://github.com/Level/mem/compare/0.17.0...v0.18.0
+[0.18.0]: https://github.com/Level/mem/releases/tag/v0.18.0
