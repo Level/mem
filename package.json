@@ -42,6 +42,6 @@
     "json"
   ],
   "engines": {
-    "node": ">=6"
+    "node": ">=10"
   }
 }
