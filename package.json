@@ -17,8 +17,8 @@
     "UPGRADING.md"
   ],
   "dependencies": {
-    "level-packager": "^6.0.0",
-    "memdown": "^6.1.0"
+    "level-packager": "^6.0.1",
+    "memdown": "^6.1.1"
   },
   "devDependencies": {
     "dependency-check": "^3.3.0",
