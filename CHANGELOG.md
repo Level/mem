@@ -1,5 +1,11 @@
 # Changelog
 
+## [6.0.1] - 2021-10-02
+
+### Fixed
+
+- Bump dependencies to prevent dedupe ([`9c63a61`](https://github.com/Level/mem/commit/9c63a61)) (Vincent Weevers).
+
 ## [6.0.0] - 2021-10-01
 
 _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
@@ -146,6 +152,8 @@ _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 ## [0.17.0] - 2013-10-12
 
 :seedling: Initial release.
+
+[6.0.1]: https://github.com/Level/mem/releases/tag/v6.0.1
 
 [6.0.0]: https://github.com/Level/mem/releases/tag/v6.0.0
 
