@@ -1,6 +1,8 @@
 # level-mem
 
-> A convenience package that bundles [`levelup`](https://github.com/Level/levelup), [`encoding-down`](https://github.com/Level/encoding-down) and [`memdown`](https://github.com/Level/memdown) and exposes `levelup` on its export.
+**A convenience package that bundles [`levelup`](https://github.com/Level/levelup), [`encoding-down`](https://github.com/Level/encoding-down) and [`memdown`](https://github.com/Level/memdown) and exposes `levelup` on its export.**
+
+> :pushpin: This module will soon be [deprecated](https://github.com/Level/community/issues/113), because it is superseded by [`memory-level`](https://github.com/Level/memory-level).
 
 [![level badge][level-badge]](https://github.com/Level/awesome)
 [![npm](https://img.shields.io/npm/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
