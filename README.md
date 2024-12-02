@@ -1,17 +1,6 @@
 # level-mem
 
-**A convenience package that bundles [`levelup`](https://github.com/Level/levelup), [`encoding-down`](https://github.com/Level/encoding-down) and [`memdown`](https://github.com/Level/memdown) and exposes `levelup` on its export.**
-
-> :pushpin: This module will soon be [deprecated](https://github.com/Level/community/issues/113), because it is superseded by [`memory-level`](https://github.com/Level/memory-level).
-
-[![level badge][level-badge]](https://github.com/Level/awesome)
-[![npm](https://img.shields.io/npm/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
-[![Node version](https://img.shields.io/node/v/level-mem.svg)](https://www.npmjs.com/package/level-mem)
-[![Test](https://img.shields.io/github/workflow/status/Level/mem/Test?label=test)](https://github.com/Level/mem/actions/workflows/test.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/Level/mem?label=&logo=codecov&logoColor=fff)](https://codecov.io/gh/Level/mem)
-[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
-[![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
-[![Donate](https://img.shields.io/badge/donate-orange?logo=open-collective&logoColor=fff)](https://opencollective.com/level)
+**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**
 
 ## Usage
 
